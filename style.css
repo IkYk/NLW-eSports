@@ -31,6 +31,14 @@ header div {
     padding: 4px;
     transition: transform .3s;
 }
+
+.accName{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    color: white;
+    font-size: 20px;
+}
 header div:hover{
     transform: scale(1.1);
 }
@@ -127,6 +135,9 @@ main section:nth-child(3){
     animation-delay: 0.8s;
 }
 
+.accName {
+    animation: fromTop .7s backwards;
+}
 /* Animação mais rápida */
 /* main section:nth-child(1){
     animation: toTop .7s;
