@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -25,7 +26,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #002290 0%, #ff2020 50%, #fced5f 100%);
     border-radius: 50%;
     display: flex;
     padding: 4px;
@@ -52,7 +53,7 @@ header img {
 main {
     max-width: 580px;
     width: 90%;
-    margin: 32px auto;
+    margin: 10px auto;
     height: 90%;
     display: grid;
     gap: 24px;
@@ -67,7 +68,7 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #002290 0%, #ff2020 50%, #fced5f 100%);
     padding: 8px 0 0 0;
     border-radius: 20px;
 }
@@ -100,7 +101,8 @@ section div {
     border-radius: 16px;
 }
 
-.games-list img {
+.movie-list img {
+    height: 120px;
     width: 90px;
     border-radius: 12px;
 }
